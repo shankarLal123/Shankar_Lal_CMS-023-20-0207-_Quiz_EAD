@@ -1,0 +1,51 @@
+import React from 'react';
+
+const Navbar = () => {
+  return (
+    <nav>
+      {/* Navbar content goes here */}
+    </nav>
+  );
+};
+
+export default Navbar;
+
+function Welcome() {
+  return (
+    <div>
+      <h1>Welcome to the Application!</h1>
+      {/* Other welcome content goes here */}
+    </div>
+  );
+}
+
+export default Welcome;
+
+const Auctions = () => {
+  return (
+    <div>
+      {/* Auctions content goes here */}
+    </div>
+  );
+};
+
+export default Auctions;
+export function Discover() {
+  return (
+    <div>
+      {/* Discover content goes here */}
+    </div>
+  );
+}
+
+
+
+function Footer() {
+  return (
+    <footer>
+      {/* Footer content goes here */}
+    </footer>
+  );
+}
+
+export default Footer;
